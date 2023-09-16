@@ -51,8 +51,9 @@ func InitSrvConn() {
 	}
 
 	// 商品服务连接
-	productSrvClient := proto.NewProductClient(productConn)
 
-	global.ProductSrvClient = productSrvClient
+	global.BannerSrvClient = proto.NewBannerClient(productConn)
+	//
+	//global.ProductSrvClient = productSrvClient
 
 }

@@ -2,10 +2,12 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
+	"sales-product-web/api"
 )
 
 func ProductRouter(Router gin.IRoutes) {
 	{
+		Router.GET("/banner", api.GetBannerList)
 		//Router.POST("/manager/add", api.CreateUser)
 		//Router.POST("/manager/list", api.GetUserList)
 		//Router.POST("/manager/login", api.UserLoginIn)

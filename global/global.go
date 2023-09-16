@@ -8,9 +8,10 @@ import (
 )
 
 var (
-	Conn             *grpc.ClientConn
-	Trans            ut.Translator
-	ProductSrvClient proto.ProductClient
-	NacosConfig      *model.NacosConfig  = &model.NacosConfig{}
-	ServerConfig     *model.ServerConfig = &model.ServerConfig{}
+	Conn  *grpc.ClientConn
+	Trans ut.Translator
+	//ProductSrvClient proto.ProductClient
+	BannerSrvClient proto.BannerClient
+	NacosConfig     *model.NacosConfig  = &model.NacosConfig{}
+	ServerConfig    *model.ServerConfig = &model.ServerConfig{}
 )
