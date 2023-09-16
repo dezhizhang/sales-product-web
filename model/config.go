@@ -26,5 +26,5 @@ type ServerConfig struct {
 	Host         string           `mapstructure:"host" json:"host"`
 	Port         int              `mapstructure:"port" json:"port"`
 	ConsulConfig ConsulConfig     `mapstructure:"consul" json:"consul"`
-	ProductSrv   ProductSrvConfig `mapstructure:"product_srv" json:"product_srv"`
+	ProductSrv   ProductSrvConfig `mapstructure:"sales_product_srv" json:"sales_product_srv"`
 }

@@ -2,7 +2,6 @@ package initialize
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/nacos-group/nacos-sdk-go/v2/clients"
 	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
 	"github.com/nacos-group/nacos-sdk-go/v2/vo"
@@ -43,6 +42,4 @@ func InitNacos() {
 		zap.S().Errorw("序列化失败%s", err.Error())
 		return
 	}
-	fmt.Println("nacos", global.ServerConfig)
-
 }

@@ -1,11 +1,11 @@
 {
-    "name": "product-web",
+    "name": "sales-product-web",
     "host": "127.0.0.1",
     "port": 8084,
-    "user_srv": {
+    "sales_product_srv": {
         "host": "127.0.0.1",
-        "name": "product-srv",
-        "port": 8083
+        "name": "sales-product-srv",
+        "port": 8086
     },
     "jwt": {
         "key": "sales-info"
