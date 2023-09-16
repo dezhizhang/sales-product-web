@@ -7,7 +7,7 @@ import (
 
 func ProductRouter(Router gin.IRoutes) {
 	{
-		Router.GET("/banner", api.GetBannerList)
+		Router.GET("/banner/list", api.GetBannerList)
 		//Router.POST("/manager/add", api.CreateUser)
 		//Router.POST("/manager/list", api.GetUserList)
 		//Router.POST("/manager/login", api.UserLoginIn)

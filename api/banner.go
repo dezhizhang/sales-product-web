@@ -10,6 +10,7 @@ import (
 	"sales-product-web/utils"
 )
 
+// GetBannerList 获取轮播图列表
 func GetBannerList(c *gin.Context) {
 	pageIndex := utils.StringToNumber(c.DefaultQuery("pageIndex", "1"))
 	pageSize := utils.StringToNumber(c.DefaultQuery("pageSize", "10"))
