@@ -87,3 +87,27 @@ func UpdateBanner(c *gin.Context) {
 		Data: nil,
 	})
 }
+
+// DeleteBanner 删除轮播图
+func DeleteBanner(c *gin.Context) {
+	var banner model.Banner
+	err := c.ShouldBindJSON(&banner)
+	if err != nil {
+		zap.S().Errorw("DeleteBanner 序列化失败%s", err.Error())
+		return
+	}
+	_, err = global.BannerSrvClient.DeleteBanner(context.Background(), &proto.DeleteBannerRequest{
+		Id: banner.Id,
+	})
+
+	if err != nil {
+		zap.S().Errorw("删除用户失败%s", err.Error())
+		return
+	}
+
+	utils.ResponseSuccess(c, &model.ResponseData{
+		Msg:  "删除轮播图成功",
+		Data: nil,
+		Code: http.StatusOK,
+	})
+}

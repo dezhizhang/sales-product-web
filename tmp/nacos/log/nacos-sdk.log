@@ -1487,3 +1487,33 @@ runtime.goexit
 2023-09-17T15:14:33.390+0800	INFO	rpc/rpc_client.go:224	[RpcClient.Start] config-0-78cd17b0-ee07-49fe-8c4e-98bafd941082 try to connect to server on start up, server: {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0}
 2023-09-17T15:14:33.390+0800	INFO	util/common.go:96	Local IP:192.168.5.12
 2023-09-17T15:14:33.505+0800	INFO	rpc/rpc_client.go:234	config-0-78cd17b0-ee07-49fe-8c4e-98bafd941082 success to connect to server {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0} on start up, connectionId=1694934873402_127.0.0.1_52925
+2023-09-17T22:14:16.454+0800	DEBUG	rpc/rpc_client.go:286	config-0-0a1a42e5-1ee6-402c-88f0-5dc2e79ff023 register server push request:ConfigChangeNotifyRequest handler:ConfigChangeNotifyRequestHandler
+2023-09-17T22:14:16.454+0800	DEBUG	rpc/rpc_client.go:286	config-0-0a1a42e5-1ee6-402c-88f0-5dc2e79ff023 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2023-09-17T22:14:16.454+0800	DEBUG	rpc/rpc_client.go:286	config-0-0a1a42e5-1ee6-402c-88f0-5dc2e79ff023 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2023-09-17T22:14:16.454+0800	INFO	rpc/rpc_client.go:224	[RpcClient.Start] config-0-0a1a42e5-1ee6-402c-88f0-5dc2e79ff023 try to connect to server on start up, server: {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0}
+2023-09-17T22:14:16.455+0800	INFO	util/common.go:96	Local IP:192.168.5.12
+2023-09-17T22:14:16.566+0800	INFO	rpc/rpc_client.go:234	config-0-0a1a42e5-1ee6-402c-88f0-5dc2e79ff023 success to connect to server {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0} on start up, connectionId=1694960056461_127.0.0.1_58500
+2023-09-17T22:23:17.364+0800	DEBUG	rpc/rpc_client.go:286	config-0-666f1756-c77e-467f-85c3-a8b25b297903 register server push request:ConfigChangeNotifyRequest handler:ConfigChangeNotifyRequestHandler
+2023-09-17T22:23:17.365+0800	DEBUG	rpc/rpc_client.go:286	config-0-666f1756-c77e-467f-85c3-a8b25b297903 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2023-09-17T22:23:17.365+0800	DEBUG	rpc/rpc_client.go:286	config-0-666f1756-c77e-467f-85c3-a8b25b297903 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2023-09-17T22:23:17.365+0800	INFO	rpc/rpc_client.go:224	[RpcClient.Start] config-0-666f1756-c77e-467f-85c3-a8b25b297903 try to connect to server on start up, server: {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0}
+2023-09-17T22:23:17.365+0800	INFO	util/common.go:96	Local IP:192.168.5.12
+2023-09-17T22:23:17.479+0800	INFO	rpc/rpc_client.go:234	config-0-666f1756-c77e-467f-85c3-a8b25b297903 success to connect to server {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0} on start up, connectionId=1694960597376_127.0.0.1_61597
+2023-09-17T22:26:55.946+0800	DEBUG	rpc/rpc_client.go:286	config-0-c1854e07-d1bc-42fa-b590-d81c4d1d1576 register server push request:ConfigChangeNotifyRequest handler:ConfigChangeNotifyRequestHandler
+2023-09-17T22:26:55.946+0800	DEBUG	rpc/rpc_client.go:286	config-0-c1854e07-d1bc-42fa-b590-d81c4d1d1576 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2023-09-17T22:26:55.946+0800	DEBUG	rpc/rpc_client.go:286	config-0-c1854e07-d1bc-42fa-b590-d81c4d1d1576 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2023-09-17T22:26:55.946+0800	INFO	rpc/rpc_client.go:224	[RpcClient.Start] config-0-c1854e07-d1bc-42fa-b590-d81c4d1d1576 try to connect to server on start up, server: {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0}
+2023-09-17T22:26:55.947+0800	INFO	util/common.go:96	Local IP:192.168.5.12
+2023-09-17T22:26:56.057+0800	INFO	rpc/rpc_client.go:234	config-0-c1854e07-d1bc-42fa-b590-d81c4d1d1576 success to connect to server {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0} on start up, connectionId=1694960815954_127.0.0.1_62712
+2023-09-17T22:28:32.082+0800	DEBUG	rpc/rpc_client.go:286	config-0-f97047f3-fd64-4a9c-b752-b0d539f34f88 register server push request:ConfigChangeNotifyRequest handler:ConfigChangeNotifyRequestHandler
+2023-09-17T22:28:32.082+0800	DEBUG	rpc/rpc_client.go:286	config-0-f97047f3-fd64-4a9c-b752-b0d539f34f88 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2023-09-17T22:28:32.082+0800	DEBUG	rpc/rpc_client.go:286	config-0-f97047f3-fd64-4a9c-b752-b0d539f34f88 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2023-09-17T22:28:32.082+0800	INFO	rpc/rpc_client.go:224	[RpcClient.Start] config-0-f97047f3-fd64-4a9c-b752-b0d539f34f88 try to connect to server on start up, server: {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0}
+2023-09-17T22:28:32.082+0800	INFO	util/common.go:96	Local IP:192.168.5.12
+2023-09-17T22:28:32.191+0800	INFO	rpc/rpc_client.go:234	config-0-f97047f3-fd64-4a9c-b752-b0d539f34f88 success to connect to server {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0} on start up, connectionId=1694960912088_127.0.0.1_63172
+2023-09-17T22:31:59.670+0800	DEBUG	rpc/rpc_client.go:286	config-0-263de0d4-e4e0-41a9-a201-a1e4ae19d5a1 register server push request:ConfigChangeNotifyRequest handler:ConfigChangeNotifyRequestHandler
+2023-09-17T22:31:59.670+0800	DEBUG	rpc/rpc_client.go:286	config-0-263de0d4-e4e0-41a9-a201-a1e4ae19d5a1 register server push request:ConnectResetRequest handler:ConnectResetRequestHandler
+2023-09-17T22:31:59.670+0800	DEBUG	rpc/rpc_client.go:286	config-0-263de0d4-e4e0-41a9-a201-a1e4ae19d5a1 register server push request:ClientDetectionRequest handler:ClientDetectionRequestHandler
+2023-09-17T22:31:59.670+0800	INFO	rpc/rpc_client.go:224	[RpcClient.Start] config-0-263de0d4-e4e0-41a9-a201-a1e4ae19d5a1 try to connect to server on start up, server: {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0}
+2023-09-17T22:31:59.670+0800	INFO	util/common.go:96	Local IP:192.168.5.12
+2023-09-17T22:31:59.781+0800	INFO	rpc/rpc_client.go:234	config-0-263de0d4-e4e0-41a9-a201-a1e4ae19d5a1 success to connect to server {serverIp:127.0.0.1 serverPort:8848 serverGrpcPort:0} on start up, connectionId=1694961119678_127.0.0.1_64247
