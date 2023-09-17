@@ -8,8 +8,8 @@ import (
 func ProductRouter(Router gin.IRoutes) {
 	{
 		Router.GET("/banner/list", api.GetBannerList)
-		//Router.POST("/manager/add", api.CreateUser)
-		//Router.POST("/manager/list", api.GetUserList)
+		Router.POST("/banner/add", api.CreateBanner)
+		Router.PUT("/banner/update", api.UpdateBanner)
 		//Router.POST("/manager/login", api.UserLoginIn)
 		//Router.DELETE("/manager/:id", api.DeleteUser)
 	}
